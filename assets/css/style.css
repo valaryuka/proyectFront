@@ -1,0 +1,56 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.login,
+.image {
+  min-height: 100vh;
+  background-color: #F5F8FF;
+}
+.login {
+  min-width: 180px;
+}
+
+.bg-image {
+  background-image: url('../img/loginPhoto.jpeg');
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Centra los elementos del row*/
+.row {
+  text-align: center;
+}
+
+.b-logo {
+  padding-bottom: 3em;
+}
+
+/* Ancho de la imagen */
+.b-logo img {
+  width: 10em;
+}
+
+/* Titulo de Iniciar Sesion*/
+.display-4 {
+  font-size: 1.6em;
+  font-weight: 400;
+  margin-block-start: 1em;
+  margin-block-end: 2em;
+}
+
+/* Agrega padding a inputs y boton*/
+.session {
+  padding-right: min(50px, 5%);
+  padding-left: min(50px, 5%);
+  /*padding-left: 4.1em;
+  padding-right: 4.1em;*/
+}
+/* Agrega borde a los inputs*/
+.session input {
+  min-width: 150px;
+  border: solid 1px gray !important;
+}
