@@ -41,7 +41,8 @@
                                 <div class="form-group mb-3">
                                     <input id="pass" name="pass" type="password" placeholder="Contraseña" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-block mb-2 rounded-pill shadow-sm log-btn" href="products.html">Ingresar</button>
+                                <div id="msg-error"></div>
+                                <button type="submit" id="signIn" class="btn btn-primary btn-block mb-2 rounded-pill shadow-sm log-btn" href="products.html">Ingresar</button>
                             </form>
                         </div>
                     </div>
@@ -51,5 +52,7 @@
     </div>
 </div>
     <script src="bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/user.js"></script>
 </body>
 </html>
