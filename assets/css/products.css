@@ -42,10 +42,8 @@ body {
 	min-width: 200px;
 	font-size: 12px;
     border-radius: 2px;
-	/*border-radius: 10px;*/
     padding-left: 35px;
     border-color: #ddd;
-	/*border-color: rgb(5, 5, 5);*/
     box-shadow: none;
 }
 .search-box input:focus {
@@ -109,11 +107,6 @@ table.table td a {
 	font-weight: bold;
 	color: #566787;
 	display: inline-block;
-	text-decoration: none;
-	outline: none !important;
-}
-table.table td a:hover {
-	color: #2196F3;
 }
 table.table td a.edit {
 	color: #FF9D3B;
@@ -123,11 +116,6 @@ table.table td a.delete {
 }
 table.table td i {
 	font-size: 19px;
-}
-table.table .avatar {
-	border-radius: 50%;
-	vertical-align: middle;
-	margin-right: 10px;
 }
 .pagination {
 	float: right;
@@ -161,17 +149,12 @@ table.table .avatar {
 	font-size: 16px;
 	padding-top: 6px
 } 
-
-
 .modal-content {
     border-radius: 10px !important;
     background-color: #fff ;
     background-color: #fff ;
-	/*border-radius: 3px;*/
     font-size: 14px;
-
 }
-
 .modal .modal-dialog {
     max-width: 600px;
 }
@@ -187,7 +170,6 @@ table.table .avatar {
     background: #ecf0f1;
     border-radius: 0 0 3px 3px;
 }
-
 .modal .modal-title {
     display: inline-block;
 }
@@ -211,8 +193,6 @@ table.table .avatar {
 .modal form input {
 	margin-left: 8px;
 }
-
-
 .modal-footer {
     border-radius: 10px !important;
     background-color: #fff !important;
@@ -231,28 +211,18 @@ table.table .avatar {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000 ;
 }
-
 .modal-footer input{
 	width: 80%;
 }
-
 .btn-danger {
     background-color: #FF2A2A;
 }
 .btn-success {
     background-color: #2FB44D
 }
-
 #editEmployeeModal{
-
-
     margin-top: 120px;
-
 }
 
-/* Query para css de pantalla pequeña */
-@media only screen and (max-width: 320px) {
-	
-}
 
 

@@ -24,16 +24,13 @@
 .row {
   text-align: center;
 }
-
 .b-logo {
   padding-bottom: 3em;
 }
-
 /* Ancho de la imagen */
 .b-logo img {
   width: 10em;
 }
-
 /* Titulo de Iniciar Sesion*/
 .display-4 {
   font-size: 1.6em;
@@ -41,13 +38,10 @@
   margin-block-start: 1em;
   margin-block-end: 2em;
 }
-
 /* Agrega padding a inputs y boton*/
 .session {
   padding-right: min(50px, 5%);
   padding-left: min(50px, 5%);
-  /*padding-left: 4.1em;
-  padding-right: 4.1em;*/
 }
 /* Agrega borde a los inputs*/
 .session input {
