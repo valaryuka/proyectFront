@@ -12,7 +12,7 @@ button.addEventListener('click', event => {
         )
         .then(response => {
             console.log(response.data); // response.data ya es un JSON
-            location.href = 'D:/Documentos/NTTDATA desafio/proyectFront/products.html';
+            location.href = 'http://localhost:5500/products.html';
         }).catch(err => {
             
             const msgError = document.getElementById('msg-error');
