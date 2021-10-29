@@ -52,7 +52,7 @@
 			<!-- Barra de busqueda-->
 			<div class="search-box">
     	        <i class="material-icons">&#xE8B6;</i>
-    	        <input type="text" class="form-control" placeholder="Fitrar por nombre&hellip;">
+    	        <input type="text" class="form-control" placeholder="Filtrar por nombre&hellip;">
     	    </div>
     	</div>
 	</div>
@@ -99,28 +99,28 @@
 				
 				<div class="modal-body">
 					<div class="form-group row">
-  					  <label for="nombre" class="col-sm-2 col-form-label">Nombre </label>
+  					  <label class="col-sm-2 col-form-label">Nombre </label>
   					  <div class="col-sm-10">
-  					    <input type="text" name="name" class="form-control" required/>
+  					    <input type="text" id="add-name" name="name" class="form-control" required/>
   					  </div>
   					</div>
   					<div class="form-group row">
-  					  <label for="precio" class="col-sm-2 col-form-label">Precio </label>
+  					  <label  class="col-sm-2 col-form-label">Precio </label>
   					  <div class="col-sm-10">
-  					    <input type="number" name="price" class="form-control" required/>
+  					    <input type="number" id="add-price" name="price" class="form-control" required/>
   					  </div>
   					</div>
 					<div class="form-group row">
-  					  <label for="precio" class="col-sm-2 col-form-label">Cantidad</label>
+  					  <label  class="col-sm-2 col-form-label">Cantidad</label>
   					  <div class="col-sm-10">
-  					    <input type="number" name="quantity" class="form-control" required/>
+  					    <input type="number" id="add-quantity" name="quantity" class="form-control" required/>
   					  </div>
   					</div>				
 				</div>
 				<div class="modal-footer">
 					<div class="row">
 					    <div class="col">
-							<input type="submit" class="btn btn-success" value="Aceptar">
+							<button type="button" onclick="addProduct()" class="btn btn-success" data-dismiss="modal" >Aceptar</button>
 						</div>
 					    <div class="col-md-auto"></div>
 					    <div class="col col-lg-6">
@@ -143,26 +143,25 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-group row">
-  					  <label for="nombre" class="col-sm-2 col-form-label">Nombre </label>
+  					  <label class="col-sm-2 col-form-label">Nombre </label>
   					  <div class="col-sm-10">
-  					    <input placeholder="Ej: Martillo" type="text" name="name" class="form-control" required/>
+  					    <input id="edit-name" type="text" name="name" class="form-control" required/>
   					  </div>
   					</div>
   					<div class="form-group row">
-  					  <label for="precio" class="col-sm-2 col-form-label">Precio </label>
+  					  <label class="col-sm-2 col-form-label">Precio </label>
   					  <div class="col-sm-10">
-  					    <input placeholder="Ej: 5000" type="number" name="price" class="form-control" required/>
+  					    <input id="edit-price" type="number" name="price" class="form-control" required/>
   					  </div>
   					</div>
 					<div class="form-group row">
-  					  <label for="precio" class="col-sm-2 col-form-label">Cantidad</label>
+  					  <label class="col-sm-2 col-form-label">Cantidad</label>
   					  <div class="col-sm-10">
-  					    <input placeholder="Ej: 40" type= "number" name="quantity" class="form-control" required/>
+  					    <input id="edit-quantity" type= "number" name="quantity" class="form-control" required/>
   					  </div>
   					</div>	
 
                 </div>
-				<button></button>
                 <div class="modal-footer">
 					<div class="row">
 					    <div class="col">
